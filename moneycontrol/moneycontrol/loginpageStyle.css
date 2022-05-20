@@ -1,0 +1,76 @@
+﻿body {
+    font-family: Helvetica;
+    background: #eee;
+    -webkit-font-smoothing: antialiased;
+}
+
+body h1{
+    text-align:center;
+}
+
+
+#form1 {
+    max-width: 380px;
+    width:auto;
+    height:auto;
+    margin: 4em auto;
+    padding: 3em 2em 2em 2em;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px,rgba(0,0,0,0.09804) 0px 1px 2px 0px;
+}
+
+#form1 h2{
+    text-align:center;
+}
+
+
+#input input {
+	font-size: 18px;
+	padding: 10px 10px 10px 5px;
+	-webkit-appearance: none;
+	display: block;
+	background: #fafafa;
+	color: #636363;
+	width: 100%;
+	border: none;
+	border-radius: 0;
+	border-bottom: 1px solid #757575;
+}
+
+.button input {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.btnEsquerda{
+    float:left;
+    width:150px;
+    display:inline-block;
+}
+.btnDireita{
+    float:right;
+    width:150px;
+}
+
+.lblMensagem {
+   display:inline-block;
+   width:500px;
+   color:red;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px){
+    .btnDireita{
+    float:left;
+    width:150px;
+}
+}
